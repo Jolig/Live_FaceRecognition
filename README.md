@@ -14,7 +14,6 @@ learningrecognizer ---> package where all learning Algo related things will be t
   - encodings.py ---> Extracts encodings for each face detected
   
   - learningSVM.py ---> learns SVM from the generated encodings
-  
 ​
 
 Order of Execution
