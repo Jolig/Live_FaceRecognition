@@ -21,7 +21,7 @@ evaluationalgo
   - evaluation.py ---> When a new image is given as input this will classify using generated SVM model
   
 
-models ---> trained(Prediction, Resnet), generated(SVM) models used in the proj
+models ---> trained(shape_predictor, resnet), generated(SVM) models used in the proj
 ​
 
 Order of Execution
