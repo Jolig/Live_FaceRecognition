@@ -29,3 +29,5 @@ Order of Execution
 1)FaceDetector.py - Creates the data file(ListOfEncodings.csv)
 
 2)learningSVM.py - Uses Data file for Training SVM
+
+3)evaluation.py - Uses generated SVM model and classifies the given image
