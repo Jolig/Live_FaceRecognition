@@ -14,6 +14,14 @@ learningrecognizer ---> package where all learning Algo related things will be t
   - encodings.py ---> Extracts encodings for each face detected
   
   - learningSVM.py ---> learns SVM from the generated encodings
+
+
+evaluationalgo 
+
+  - evaluation.py ---> When a new image is given as input this will classify using generated SVM model
+  
+
+models ---> trained(Prediction, Resnet), generated(SVM) models used in the proj
 ​
 
 Order of Execution
