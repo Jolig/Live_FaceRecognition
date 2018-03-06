@@ -10,7 +10,7 @@ learningrecognizer ---> package where all learning Algo related things will be t
           -orl_faces ---> Training and Testing images
           -FaceDetector.py ---> Starting point for the detection. It does face_detection, pose_Prediction and 
                                 calls the extraction method for encodings.
-          -ImageClass ---> Used to encapsulate all the images atuff at one place
+          -ImageClass.py ---> Used to encapsulate all the images stuff at one place
   
   - encodings.py ---> Extracts encodings for each face detected
   
