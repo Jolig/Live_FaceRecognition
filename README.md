@@ -32,3 +32,5 @@ Order of Execution
 2)learningSVM.py - Uses Data file for Training SVM
 
 3)evaluation.py - Uses generated SVM model and classifies the given image
+
+4)liveRecognising.py - Live recognition of faces through web cam
