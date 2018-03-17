@@ -4,7 +4,7 @@ global SVM_Path
 global resnet_Path
 global prediction_Path
 
-proj_Path = "/home/deepti/PycharmProjects/LiveFaceRecognition"
+proj_Path = "/Users/akhila/PycharmProjects/LiveFaceRecognition"
 
 dataFile_Path = proj_Path + "/learningrecognizer/preprocessing/datafiles/listOfEncodings.csv"
 

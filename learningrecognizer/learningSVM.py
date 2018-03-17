@@ -54,3 +54,9 @@ def trainSVM():
 
 trainSVM()
 
+
+'''
+ModelScore: 1.0
+Accuracy: 1.0
+'''
+

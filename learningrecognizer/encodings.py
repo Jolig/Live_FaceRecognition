@@ -1,5 +1,5 @@
 from __future__ import division, print_function, unicode_literals
-from preprocessing import globalVariables
+from learningrecognizer.preprocessing import globalVariables
 
 import csv
 import dlib
@@ -26,7 +26,7 @@ def extract(Image, pose_landmarks):
 def exportToExcel(listOfEncodings):
 
     print(len(listOfEncodings))
-    with open(globalVariables.dataFile_Path, "wb") as f:
+    with open(globalVariables.dataFile_Path, "w") as f:
         writer = csv.writer(f)
         writer.writerows(listOfEncodings)
 

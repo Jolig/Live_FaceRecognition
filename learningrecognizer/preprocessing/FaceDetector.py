@@ -1,5 +1,7 @@
 from __future__ import division, print_function, unicode_literals
-import globalVariables
+
+from learningrecognizer.preprocessing import globalVariables
+from learningrecognizer.preprocessing import ImageClass
 
 import cv2
 import glob
@@ -8,12 +10,11 @@ import os
 import numpy as np
 
 import dlib
-import openface
+#import openface
 
 from skimage import io
 from learningrecognizer import encodings
 
-import ImageClass
 
 mainDir = "orl_faces/"
 detectedImagesPath = "detected_faces/"
@@ -27,7 +28,7 @@ predictor_model = globalVariables.prediction_Path
 
 face_detector = dlib.get_frontal_face_detector()
 face_pose_predictor = dlib.shape_predictor(predictor_model)
-face_aligner = openface.AlignDlib(predictor_model)
+#face_aligner = openface.AlignDlib(predictor_model)
 
 
 class FaceDetector:
@@ -98,7 +99,7 @@ def posePrediction(fd):
 
 def main():
 
-    heading = range(0, 128)
+    heading = list(range(0, 128))
     heading.append("classLabel")
     listOfEncodings.append(heading)
     detection()
