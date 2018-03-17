@@ -33,4 +33,4 @@ Order of Execution
 
 3)evaluation.py - Uses generated SVM model and classifies the given image
 
-4)liveRecognising.py - Live recognition of faces through web cam
+4)liveRecognising.py - Live recognition of faces through laptop camera
