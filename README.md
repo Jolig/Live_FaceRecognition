@@ -25,6 +25,8 @@ evaluationalgo
 models ---> trained(shape_predictor, resnet), generated(SVM) models used in the proj
 ​
 
+
+
 Order of Execution
 
     1)FaceDetector.py - Creates the data file(ListOfEncodings.csv)
